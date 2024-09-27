@@ -1,8 +1,8 @@
 from pathlib import Path
 
-from email_downloader.google_utils import build_api
-from email_downloader.utils import download_message_attachment
-from email_downloader.config import Config
+from email_attachment_downloader.google_utils import build_api
+from email_attachment_downloader.utils import download_message_attachment
+from email_attachment_downloader.config import Config
 
 
 def main(config_path: Path):

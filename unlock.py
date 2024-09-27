@@ -1,4 +1,4 @@
-from email_downloader.config import Config, Secrets
+from email_attachment_downloader.config import Config, Secrets
 from pathlib import Path
 import pikepdf
 
